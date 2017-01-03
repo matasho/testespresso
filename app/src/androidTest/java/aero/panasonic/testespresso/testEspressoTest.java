@@ -49,7 +49,7 @@ public class testEspressoTest {
 
     @Test
     public void testGetDisplayState(){
-        Log.v(TAG, "I am in testGetDisplayState");
+        Log.v(TAG, "I am testGetDisplayState");
         Context context = getContext();
 
         PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
